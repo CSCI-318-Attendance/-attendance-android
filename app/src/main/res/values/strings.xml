@@ -1,0 +1,14 @@
+<resources>
+    <!--Login Activity Strings-->
+    <string name="app_name">Attendance Overview</string>
+    <string name="text_view_login">Login</string>
+    <string name="plain_text_login_hint">Username</string>
+    <string name="password_login_hint">Password</string>
+    <string name="button_login_text">Login</string>
+    <string name="checkbox_text">Remember Me</string>
+    <!--Main Activity Strings-->
+    <string name="text_view_welcome">Welcome %1$s</string>
+    <string name="text_view_nav">Navigate</string>
+    <string name="button_logout_text">Logout</string>
+    <string name="nav_button_desc">Nav</string>
+</resources>
