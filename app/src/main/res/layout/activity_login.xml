@@ -65,14 +65,17 @@
     <Button
         android:id="@+id/login_button_view"
         android:layout_width="226dp"
-        android:layout_height="41dp"
+        android:layout_height="49dp"
+        android:fontFamily="monospace"
         android:text="@string/button_login_text"
         android:textAppearance="@android:style/TextAppearance.Material.Widget.Button"
+        android:textSize="24sp"
+        android:typeface="monospace"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_view"
-        app:layout_constraintVertical_bias="0.658" />
+        app:layout_constraintVertical_bias="0.58" />
 
     <CheckBox
         android:id="@+id/remember_me_view"
@@ -100,7 +103,36 @@
         app:layout_constraintBottom_toTopOf="@+id/remember_me_view"
         app:layout_constraintEnd_toStartOf="@+id/password_view"
         app:layout_constraintStart_toEndOf="@+id/password_view"
-        app:layout_constraintTop_toBottomOf="@+id/password_view"
-        app:layout_constraintVertical_bias="1.0"
         tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/create_user_view"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:contentDescription="@string/create_account"
+        android:src="@drawable/ic_person_add_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button_view"
+        app:layout_constraintVertical_bias="0.703" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/register_text"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/create_user_view"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button_view"
+        app:layout_constraintVertical_bias="0.768" />
+
 </android.support.constraint.ConstraintLayout>

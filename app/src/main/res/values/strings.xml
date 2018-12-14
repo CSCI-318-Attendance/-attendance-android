@@ -6,9 +6,29 @@
     <string name="password_login_hint">Password</string>
     <string name="button_login_text">Login</string>
     <string name="checkbox_text">Remember Me</string>
+    <string name="register_text">Create Account</string>
     <!--Main Activity Strings-->
     <string name="text_view_welcome">Welcome %1$s</string>
     <string name="text_view_nav">Navigate</string>
     <string name="button_logout_text">Logout</string>
     <string name="nav_button_desc">Nav</string>
+    <string name="button_classes_text">Classes</string>
+    <string name="current_date">Today is %1$s, %2$s %3$s</string>
+    <string name="create_account">Create Account</string>
+    <string name="scroll_dir"><![CDATA[Swipe That way —>]]></string>
+    <!--Create User Activity Strings-->
+    <string name="create_user_text_view">Create User</string>
+    <string name="username_cu_hint">Username</string>
+    <string name="email_cu_hint">University Email</string>
+    <string name="password_cu_hint">Password</string>
+    <string name="password_c_cu_hint">Re-Type Password</string>
+    <string name="button_cu_create_user">Create User</string>
+    <string name="student_id_cu_hint">Student ID</string>
+    <string name="cu_back_arrow_content_desc">back_arrow_image</string>
+    <!--Other-->
+    <string name="host_card_service">Host Card Emulation APDU Service</string>
+    <string name="service_desc">Student ID HCE</string>
+    <string name="aid_description">Application Ids</string>
+    <string name="uuid_map">UUID</string>
+    <string name="class_image_holder_desc">Class_Image_Holder</string>
 </resources>
